@@ -1,4 +1,3 @@
-//ne только сортировка с комментами
 function sortNode(node) {
   return node.slice().sort((a, b) => {
     const res = findWeight(a) - findWeight(b);
